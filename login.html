@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiser page</title>
+    <style>
+
+    </style>
+    <script>
+       function handleUser(){
+        var data = document.getElementById("username").value;
+         var pswd = document.getElementById("password").value ; 
+       } 
+    </script>
+</head>
+<body >
+    <h2>Log In Page</h2>
+    <div>
+        <dl>
+            <dt>UserName</dt>
+            <dd><input type="text" id="username" onblur="handleUser()"/></dd>
+            <dd id="msg"></dd>
+            <dt>Password</dt>
+            <dd><input type="password" id="password"/></dd>
+        </dl>
+    </div>
+</body>
+</html>
